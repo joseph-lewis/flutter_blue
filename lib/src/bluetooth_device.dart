@@ -5,7 +5,7 @@
 part of flutter_blue;
 
 class BluetoothDevice {
-  final DeviceIdentifier id;
+  DeviceIdentifier id;
   final String name;
   final BluetoothDeviceType type;
 
