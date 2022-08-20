@@ -231,7 +231,7 @@ class ScanMode {
 }
 
 class DeviceIdentifier {
-  final String id;
+  String id;
   const DeviceIdentifier(this.id);
 
   @override
