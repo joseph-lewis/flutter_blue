@@ -232,7 +232,7 @@ class ScanMode {
 
 class DeviceIdentifier {
   String id;
-  const DeviceIdentifier(this.id);
+  DeviceIdentifier(this.id);
 
   @override
   String toString() => id;
